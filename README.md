@@ -14,11 +14,12 @@ imports .graphql or .gql files from folder and convert them into graphql tag.
 ## Options
 
 filesPath - path to folder
+
 fileTag - part of filename // only files containing the fileTag in the name will be imported (.ie fileTag TYPE imports only UserTYPE.graphql, PostTYPE.graphql etc, PostENUM.graphql will not be imported )
 
 ## Example
 
-```typescript
+```javascript
 import path from "path";
 import SchemaRequire from "node-graphql-import";
 import { ApolloServer } from "apollo-server-express";
