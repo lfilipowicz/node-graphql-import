@@ -2,12 +2,11 @@ import fs from "fs";
 import gql from "graphql-tag";
 
 interface Options {
-  extensions: string;
   filesPath: string;
-  fileTag: string;
+  fileTag?: string;
 }
 
-function includeSchemaFromPath(options: Options): string {
+export default function(options: Options): string {
   const { filesPath, fileTag } = options;
   const schema = fs
     .readdirSync(filesPath)
@@ -19,5 +18,3 @@ function includeSchemaFromPath(options: Options): string {
     }, "");
   return gql(schema);
 }
-
-export default includeSchemaFromPath;
