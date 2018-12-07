@@ -1,6 +1,6 @@
 {
   "name": "node-graphql-import",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "imports .graphql or .gql files from path",
   "main": "./dist/index.js",
   "repository": "https://github.com/lfilipowicz/node-graphql-import",
