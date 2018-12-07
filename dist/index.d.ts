@@ -1,7 +1,6 @@
 interface Options {
-    extensions: string;
     filesPath: string;
-    fileTag: string;
+    fileTag?: string;
 }
-declare function includeSchemaFromPath(options: Options): string;
-export default includeSchemaFromPath;
+export default function (options: Options): string;
+export {};

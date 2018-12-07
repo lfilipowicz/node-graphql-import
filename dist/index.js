@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const fs_1 = __importDefault(require("fs"));
 const graphql_tag_1 = __importDefault(require("graphql-tag"));
-function includeSchemaFromPath(options) {
+function default_1(options) {
     const { filesPath, fileTag } = options;
     const schema = fs_1.default
         .readdirSync(filesPath)
@@ -17,5 +17,5 @@ function includeSchemaFromPath(options) {
     }, "");
     return graphql_tag_1.default(schema);
 }
-exports.default = includeSchemaFromPath;
+exports.default = default_1;
 //# sourceMappingURL=index.js.map
