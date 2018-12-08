@@ -1,0 +1,7 @@
+flow-typed
+.idea
+.vscode
+coverage
+node_modules
+dist_prod
+dist
