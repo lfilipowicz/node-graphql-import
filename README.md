@@ -1,5 +1,7 @@
-[![CircleCI](https://circleci.com/gh/lfilipowicz/node-graphql-import/tree/master.svg?style=svg)](https://circleci.com/gh/lfilipowicz/node-graphql-import/tree/master)
-
+[![CircleCI](
+  https://img.shields.io/circleci/project/github/lfilipowicz/node-graphql-import/master.svg)](https://circleci.com/gh/lfilipowicz/node-graphql-import/tree/master)
+![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
+![npm](https://img.shields.io/npm/v/node-graphql-import.svg)
 
 # node-graphql-import
 
@@ -22,10 +24,6 @@ fileTag - part of filename // only files containing the fileTag in the name will
 
 ## Example
 
-```javascript
-import path from "path";
-import SchemaRequire from "node-graphql-import";
-import { ApolloServer } from "apollo-server-express";
 
 |root
 --|schema
@@ -34,6 +32,11 @@ import { ApolloServer } from "apollo-server-express";
 ----|enum
 ----|custom
 
+
+```javascript
+import path from "path";
+import SchemaRequire from "node-graphql-import";
+import { ApolloServer } from "apollo-server-express";
 
 const RootSchema = SchemaRequire({ filesPath: path.join(__dirname,"./schema") });
 const TypeSchema = SchemaRequire({ filesPath: path.join(__dirname,"./schema/type") });
