@@ -5,7 +5,9 @@ cache:
     - ~/.npm
 notifications:
   email: false
-node_js: '10'
+node_js:
+  - 10
+  - node
 install: npm install
 script: npm run ci
 branches:

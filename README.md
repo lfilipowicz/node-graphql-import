@@ -24,14 +24,21 @@ fileTag - part of filename // only files containing the fileTag in the name will
 
 ## Example
 
-
+```javascript
+example file structure
 |root
 --|schema
+    --Mutation.graphql
+    --Query.graphql
 ----|type
+    --UserTYPE.graphql
 ----|input
+    --UserINPUT.graphql
 ----|enum
+    --UserStatusENUM.graphql
 ----|custom
-
+    --UserCUSTOM.graphql
+```
 
 ```javascript
 import path from "path";
