@@ -1,7 +1,7 @@
-[![CircleCI](
-  https://img.shields.io/circleci/project/github/lfilipowicz/node-graphql-import/master.svg)](https://circleci.com/gh/lfilipowicz/node-graphql-import/tree/master)
+[![Build Status](https://travis-ci.com/lfilipowicz/node-graphql-import.svg?branch=master)](https://travis-ci.com/lfilipowicz/node-graphql-import)
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 ![npm](https://img.shields.io/npm/v/node-graphql-import.svg)
+[![Coverage Status](https://coveralls.io/repos/github/lfilipowicz/node-graphql-import/badge.svg?branch=master)](https://coveralls.io/github/lfilipowicz/node-graphql-import?branch=master)
 
 # node-graphql-import
 
