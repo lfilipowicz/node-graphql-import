@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/lfilipowicz/node-graphql-import/tree/master.svg?style=svg)](https://circleci.com/gh/lfilipowicz/node-graphql-import/tree/master)
+
+
 # node-graphql-import
 
 ## Installation
