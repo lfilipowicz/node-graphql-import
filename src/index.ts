@@ -1,12 +1,13 @@
 import fs from 'fs';
 import gql from 'graphql-tag';
+import { DocumentNode } from 'graphql';
 
-interface Options {
+interface IOptions {
   filesPath: string;
   fileTag?: string;
 }
 
-export default function(options: Options): string {
+export default function(options: IOptions): DocumentNode {
   const { filesPath, fileTag } = options;
   const schema = fs
     .readdirSync(filesPath)
